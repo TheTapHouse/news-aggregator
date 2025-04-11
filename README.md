@@ -2,17 +2,17 @@
 This repository contains a news aggregator that pulls multiple news sources and inserts into database. The database engine that is used is MySQL, but with `SQLAlchemy` this should be fairly straight forward to get working on other database engines.
 
 ### Table of Contents
-[Live Usage](#live-usage)
-[Platform & Versions](#platform-&-versions)
-[Setup](#setup)
-[Structure](#structure)
-[System Diagram](#system-diagram)
-[Fetcher Response Format](#fetcher-response-format)
-[Handling Images](#handling-images)
-[Configuration & Adding New Sources](#configuration-&-adding-new-sources)
-[Plan to Evolve into an Optimized Resource Dedicated to Cardano](#plan-to-evolve-into-an-optimized-resource-dedicated-to-cardano)
-[Database Schema](#database-schema)
-[Supported News Outlets](#supported-news-outlets)
+1. [Live Usage](#live-usage)
+2. [Platform & Versions](#platform-&-versions)
+3. [Setup](#setup)
+4. [Structure](#structure)
+5. [System Diagram](#system-diagram)
+6. [Fetcher Response Format](#fetcher-response-format)
+7. [Handling Images](#handling-images)
+8. [Configuration & Adding New Sources](#configuration-&-adding-new-sources)
+9. [Plan to Evolve into an Optimized Resource Dedicated to Cardano](#plan-to-evolve-into-an-optimized-resource-dedicated-to-cardano)
+10. [Database Schema](#database-schema)
+11. [Supported News Outlets](#supported-news-outlets)
 
 ### Live Usage
 This repository is currently feeding the [TapTools News Aggregator](https://www.taptools.io/news), a live production system being used by real users.
